@@ -1,0 +1,19 @@
+{
+  "name": "ozone",
+  "version": "1.0.0",
+  "description": "offical website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ozonefamily/ozonefamily.github.io.git"
+  },
+  "author": "mingli",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ozonefamily/ozonefamily.github.io/issues"
+  },
+  "homepage": "https://github.com/ozonefamily/ozonefamily.github.io#readme"
+}

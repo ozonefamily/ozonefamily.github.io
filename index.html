@@ -3,19 +3,56 @@
 <head>
 	<title>Ozone family</title>
 	<meta charset="UTF-8" />
+	<meta name="keywords" content="Ozone family" />
+  <meta id="description" name="description" content="对于世界上很多事情，我们大多数时候都无能为力，但是或许积少成多总是有机会将世界变得更美好，所以，我想聚集大家一起，完成“让世界变美好的100件小事”，Ozone Family就是我们的组织名。" />
+	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:100,300,400,600,700,900,400italic|Montserrat:400,700' rel='stylesheet'>
+
 	<style type="text/css">
 		*{margin: 0; padding: 0;}
 		body{
 			color: #fff;
 			background-color: #000;
+			font-family: 'Source Sans Pro', 'Montserrat'
 		}
+		ul,li{font-style: normal;list-style-type: none;}
 		.container{
 			width: 100%;
-			height: 600px;
-			display: flex;
+			padding-top: 50px;
+			/*display: flex;
 			display: -webkit-flex;
 			align-items: center;
-			justify-content: center;
+			justify-content: center;*/
+			text-align: center;
+		}
+		.team-desc{
+			width: 50%;
+			margin: 0 auto 50px auto;
+			font-size: 15px;
+			color: #fff;
+			font-weight: normal;
+		}
+		.container ul li{
+			float: left;
+			width: 30%;
+			margin-right: 5%;
+		}
+		.container ul li:last-child{
+			margin-right: 0;
+		}
+		.container ul li img{
+			width: 80%;
+			margin: 0 10% 20px 10%;
+		}
+		.container ul li h6{
+			padding-bottom: 20px;
+			font-size: 13px;
+			font-weight: normal;
+		}
+		.container ul li p{
+			text-align: center;
+			color: #fff;
+			font-weight: normal;
+			font-size: 12px;
 		}
 		.box{
 			width: 20rem;
@@ -27,12 +64,30 @@
 			align-items: center;
 			justify-content: center;
 		}
+
+		@media all and (max-width: 650px) {
+			.team-desc{width: 80%;}
+			.container ul li{
+				width: 100%;
+				margin-right: 0;
+			}
+			.container ul li p{width: 80%; padding: 0 10%;}
+		}
 	</style>
 </head>
 
 <body>
 <div class="container">
-	Ozone family
+	<h1 class="team-desc">对于世界上很多事情，我们大多数时候都无能为力，但是或许积少成多总是有机会将世界变得更美好，所以，我想聚集大家一起，完成“让世界变美好的100件小事”，Ozone Family就是我们的组织名。</h1>
+	<ul>
+		<li>
+			<h6>第一期</h6>
+			<img src="img/WechatIMG117.jpg" />
+			<p>Ozone Family特别企划第一期：浪迹在意大利街头。一起分享和感受旅行的酸甜苦辣。报名费：7.83元，第一位报名成功者将获得 背面印有达芬奇手稿“维特鲁威人”的 1欧元纪念硬币</p>
+		</li>
+		<li></li>
+		<li></li>
+	</ul>
 </div>
 
 
